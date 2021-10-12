@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
-    <table id="example-3" border="1">
-      <tr>
-        <th rowspan="1" colspan="2">ITEM</th>
-        <th rowspan="1">QTY</th>
-        <th rowspan="1">PRICE</th>
+    <table id="example-3">
+      <tr id="item">
+        <th colspan="2" id="ml">ITEM</th>
+        <th id="qtyth">QTY</th>
+        <th id="priceth">PRICE</th>
       </tr>
-      <tr>
+      <tr class="pad2">
         <td><strong>Don't Make Me Think</strong> by Steve Krug</td>
         <td>In Stock</td>
         <td>1</td>
         <td>$30.02</td>
       </tr>
 
-      <tr>
+      <tr class="in2" id="pad3">
         <td>
           <strong>A Project Giude to UX Design</strong> by Russ Under & Carolyn
           Chandler
@@ -31,186 +31,206 @@
         <td>$26.47 x 2</td>
       </tr>
 
-      <tr>
+      <tr class="pad2">
         <td><strong>Introdicing HTML5</strong> by Bruce Lawson & Remy Sharp</td>
         <td>Out of Stock</td>
         <td>1</td>
         <td>$22.23</td>
       </tr>
 
-      <tr>
+      <tr class="in2" id="pad4">
         <td><strong>Bulletproof Web Design</strong> by Dan Cederholm</td>
         <td>In Stock</td>
         <td>1</td>
         <td>$30.17</td>
       </tr>
 
-      <tr colspan="2">
-        <td>Subtotal</td>
-        <td>$135.36</td>
-      </tr>
-
-      <tr rowspan="3">
-        <td>Tax</td>
-        <td>$13.54</td>
+      <tr>
+        <td class="l" colspan="3">Subtotal</td>
+        <td class="pad">$135.36</td>
       </tr>
 
       <tr>
-        <td>Total</td>
-        <td>$148.90</td>
+        <td colspan="3" class="l">Tax</td>
+        <td class="pad">$13.54</td>
+      </tr>
+
+      <tr class="in2">
+        <td colspan="3" class="l" id="t"><strong>Total</strong></td>
+        <td id="n" class="pad"><strong>$148.90</strong></td>
       </tr>
     </table>
-<br>
+    <br />
     <table id="example-1" border="1">
-<tr>
-  <th>Invoice #123456789</th>
-  <th>14 January 2025</th>
-</tr>
+      <tr>
+        <th class="in" colspan="3">Invoice #123456789</th>
+        <th class="in">14 January 2025</th>
+      </tr>
 
-<tr>
-  <td>
-    <strong>Pay to:</strong> 
-    Acme Billing Co.
-    123 Main St.
-    Cityline, NA 12345</td>
+      <tr>
+        <td colspan="2">
+          <strong>Pay to:</strong><br />
+          Acme Billing Co.<br />
+          123 Main St.<br />
+          Cityline, NA 12345
+        </td>
 
-  <td>
-    <strong>Customer:</strong> 
-    John Smith
-    321 Willow Way
-    Southeast Northwestershire, MA 54321</td>
-</tr>
+        <td colspan="2">
+          <strong>Customer:</strong> <br />
+          John Smith<br />
+          321 Willow Way<br />
+          Southeast Northwestershire, MA 54321
+        </td>
+      </tr>
 
-<tr>
-  <th>Name / Description</th>
-  <th>Qty.</th>
-  <th>@</th>
-  <th>Cost</th>
-</tr>
+      <tr>
+        <th class="in">Name / Description</th>
+        <th class="in">Qty.</th>
+        <th class="in">@</th>
+        <th class="in">Cost</th>
+      </tr>
 
-<tr>
-  <td>Paperclips</td>
-  <td>1000</td>
-  <td>0.01</td>
-  <td>10.00</td>
-</tr>
+      <tr>
+        <td>Paperclips</td>
+        <td>1000</td>
+        <td>0.01</td>
+        <td>10.00</td>
+      </tr>
 
-<tr>
-  <th>Subtotal</th>
-  <td>110.00</td>
-</tr>
+      <tr>
+        <td>Staples (box)</td>
+        <td>100</td>
+        <td>1.00</td>
+        <td>100.00</td>
+      </tr>
 
-<tr>
-  <th>Tax</th>
-  <td>8%</td>
-  <td>8.80</td>
-</tr>
+      <tr>
+        <th class="in" colspan="3">Subtotal</th>
+        <td>110.00</td>
+      </tr>
 
-<tr>
-  <th>Grand Total</th>
-  <td>$ 118.80</td>
-</tr>
+      <tr>
+        <th class="in" colspan="2">Tax</th>
+        <td>8%</td>
+        <td>8.80</td>
+      </tr>
+
+      <tr>
+        <th class="in" colspan="3">Grand Total</th>
+        <td>$ 118.80</td>
+      </tr>
     </table>
-<br>
-<table id="example-2">
-  <tr>
-    <th>Name</th>
-    <th>Position</th>
-    <th>Office</th>
-    <th>Office</th>
-    <th>Salary</th>
-  </tr>
+
+    <br>
+
+    <table id="example-2">
+      <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Office</th>
+        <th>Office</th>
+        <th>Salary</th>
+      </tr>
+
+      <tr class="gray">
+        <td>Airi Satou</td>
+        <td>Accountant</td>
+        <td>Tokyo</td>
+        <td>33</td>
+        <td>2008/11/28</td>
+        <td>$162,700</td>
+      </tr>
+
+      <tr>
+        <td>Angelica Ramos</td>
+        <td>Chief Executive Officer (CEO)</td>
+        <td>London</td>
+        <td>47</td>
+        <td>2009/10/09</td>
+        <td>$1,200,000</td>
+      </tr>
+
+      <tr id="blue">
+        <td>Ashton Cox</td>
+        <td>Junior Technical Author</td>
+        <td>San Francisco</td>
+        <td>66</td>
+        <td>2009/01/12</td>
+        <td>$86,000</td>
+      </tr>
+
+      <tr>
+        <td>Bradley Greer</td>
+        <td>Software Engineer</td>
+        <td>London</td>
+        <td>41</td>
+        <td>2012/10/13</td>
+        <td>$132,000</td>
+      </tr>
+
+      <tr class="gray">
+        <td>Brenden Wagner</td>
+        <td>Software Engineer</td>
+        <td>San Francisco</td>
+        <td>28</td>
+        <td>2011/06/07</td>
+        <td>$206,850</td>
+      </tr>
+
+      <tr>
+        <td>Brielle Williamson</td>
+        <td>Integration Specialist</td>
+        <td>New york</td>
+        <td>61</td>
+        <td>2012/12/02</td>
+        <td>$372,000</td>
+      </tr>
+
+      <tr class="gray">
+        <td>Bruno Nash</td>
+        <td>Software Engineer</td>
+        <td>London</td>
+        <td>38</td>
+        <td>2011/05/03</td>
+        <td>$163,500</td>
+      </tr>
+
+      <tr>
+        <td>Caesar Vance</td>
+        <td>Pre-Sales Support</td>
+        <td>New York</td>
+        <td>21</td>
+        <td>2011/12/12</td>
+        <td>$106,450</td>
+      </tr>
+
+      <tr class="gray">
+        <td>Cara Stevens</td>
+        <td>Sales Assistant</td>
+        <td>New York</td>
+        <td>46</td>
+        <td>2011/12/06</td>
+        <td>$146,500</td>
+      </tr>
+
+      <tr>
+        <td>Cedric Kelly</td>
+        <td>Senior Javascript Developer</td>
+        <td>Edinburgh</td>
+        <td>22</td>
+        <td>2012/03/29</td>
+        <td>$433,060</td>
+      </tr>
 
 <tr>
- <td>Airi Satou</td> 
- <td>Accountant</td>
- <td>Tokyo</td>
- <td>33</td>
- <td>2008/11/28</td>
- <td>$162,700</td>
+<th>Name</th>
+<th>Position</th>
+<th>Office</th>
+<th>Age</th>
+<th>Start date</th>
+<th>Salary</th>
 </tr>
 
-<tr>
-  <td>Angelica Ramos</td>
-  <td>Chief Executive Officer (CEO)</td>
-  <td>London</td>
-  <td>47</td>
-  <td>2009/10/09</td>
-  <td>$1,200,000</td>
-</tr>
-
-<tr>
-  <td>Ashton Cox</td>
-  <td>Junior Technical Author</td>
-  <td>San Francisco</td>
-  <td>66</td>
-  <td>2009/01/12</td>
-  <td>$86,000</td>
-</tr>
-
-<tr>
-  <td>Bradley Greer</td>
-  <td>Software Engineer</td>
-  <td>London</td>
-  <td>41</td>
-  <td>2012/10/13</td>
-  <td>$132,000</td>
-</tr>
-
-<tr>
-  <td>Brenden Wagner</td>
-  <td>Software Engineer</td>
-  <td>San Francisco</td>
-  <td>28</td>
-  <td>2011/06/07</td>
-  <td>$206,850</td>
-</tr>
-
-<tr>
-  <td>Brielle Williamson</td>
-  <td>Integration Specialist</td>
-  <td>New york</td>
-  <td>61</td>
-  <td>2012/12/02</td>
-  <td>$372,000</td>
-</tr>
-
-<tr>
-  <td>Bruno Nash</td>
-  <td>Software Engineer</td>
-  <td>London</td>
-  <td>38</td>
-  <td>2011/05/03</td>
-  <td>$163,500</td>
-</tr>
-
-<tr>
-  <td>Caesar Vance</td>
-  <td>Pre-Sales Support</td>
-  <td>New York</td>
-  <td>21</td>
-  <td>2011/12/12</td>
-  <td>$106,450</td>
-</tr>
-
-<tr>
-  <td>Cara Stevens</td>
-  <td>Sales Assistant</td>
-  <td>New York</td>
-  <td>46</td>
-  <td>2011/12/06</td>
-  <td>$146,500</td>
-</tr>
-
-<tr>
-  <td>Cedric Kelly</td>
-  <td>Senior Javascript Developer</td>
-  <td>Edinburgh</td>
-  <td>22</td>
-  <td>2012/03/29</td>
-  <td>$433,060</td>
-</tr>
-
-</table>
+    </table>
   </body>
 </html>

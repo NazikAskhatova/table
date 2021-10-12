@@ -1,0 +1,89 @@
+#example-1 {
+background-color: white;
+}
+
+.in {
+    background-color: rgb(224, 212, 178);
+}
+
+#example-3 {
+border: 0px;
+}
+
+.in2 {
+    background-color: rgb(247, 236, 236);
+}
+
+.l {
+    padding-left: 450px;
+}
+
+#ml {
+color: white;
+background-color: rgb(22, 85, 79);
+padding-right: 410px;
+padding-left: 1px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#qtyth {
+    color: white;
+    background-color: rgb(22, 85, 79);
+    padding: 10px;
+    border: 0px;
+}
+
+#priceth {
+    color: white;
+    background-color: rgb(22, 85, 79);
+    padding: 10px;
+    
+}
+
+#t {
+    color: rgb(22, 85, 79);
+}
+
+#n {
+color: rgb(22, 85, 79);
+}
+
+.pad {
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pad2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 9px;
+}
+
+#pad3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 15px;
+}
+
+#pad4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 9px;
+}
+
+#blue {
+    color: black;
+    background-color: cyan;
+    border: none;
+}
+
+.gray {
+    color: black;
+    background-color: rgb(224, 212, 178);
+}
